@@ -55,6 +55,8 @@ Goal 2: Easily be able to find information about Apple Fest on the day of at the
 
 Goal 3: Easily navigate the sections of the website that can help them plan their event hangout date.
 
+Goal 4: Easily be able to get any last minute updates abut cancelation of events, or just updates about changes in general.
+
 ### Existing Site: Design/Sketches
 > Sketch each page of your existing site.
 > **You may not copy your sketches from a previous assignment.**

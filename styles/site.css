@@ -36,10 +36,11 @@ nav {
   display: flex;
   flex-direction: row;
   align-items: center;
-  height: 175px;
+  height: 90px;
   text-align: center;
   justify-content: space-between;
   margin-bottom:-10px;
+  z-index: 3;
 }
 
 .headerlogo {
@@ -50,7 +51,7 @@ nav {
 }
 
 .headerlogo img {
-  max-width: 100%;
+  max-width: 70%;
   height:auto;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -58,9 +59,9 @@ nav {
 
 .desktop-nav-links {
   list-style: none;
-  font-size: 22px;
+  font-size: 17px;
   display: flex;
-  color:black;
+  font-weight: 10;
 }
 
 .desktop-nav-links li{
@@ -79,20 +80,20 @@ nav {
 }
 
 .desktop-nav-links li a:hover {
-  color: rgb(255, 0, 0);
+  color: rgb(224, 19, 19);
 }
 
 .fullscreen-image {
   position: relative;
   width: 99vw;
-  height: 65vh;
+  height: 70vh;
   overflow: hidden;
   margin-left: -185px;
 }
 
 .fullscreen-image img{
   width: 99vw;
-  height: 65vh;
+  height: 70vh;
   object-fit: cover;
   object-position: center center;
   transition: filter 0.3s ease-in-out;
@@ -112,7 +113,22 @@ nav {
 }
 
 .overlay-text h2 {
-  margin: 0;
+  margin-bottom:15px;
+  font-size:38px;
+  margin-left:50px;
+  margin-right:50px;
+}
+
+.overlay-text h3 {
+  text-align:center;
+  padding-top:15px;
+}
+
+.overlay-text p {
+  padding-top:15px;
+  text-align:center;
+  margin-left:80px;
+  margin-right:80px;
 }
 
 .big h2{
@@ -141,6 +157,7 @@ nav {
   font-size: 1em;
   transition: opacity 0.3s ease-in-out;
 }
+
 
 .fullsize-image:hover img {
   filter: brightness(65%);
@@ -177,45 +194,38 @@ nav {
 .homepage-content{
   display:flex;
   background-color:#ffffff;
-  flex-direction: row;
-  margin-top:70px;
+  flex-direction: column;
+  margin-top:50px;
   margin-bottom:100px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
-.column-left{
-  flex:2;
-  display:flex;
-  flex-direction:column;
-  margin-right: 50px;
+.homepage-content h2{
+  line-height: 1.5;
+  font-size: 30px;
 }
 
-.column-left p{
-  font-size:21px;
+.homepage-content h3{
+  line-height: 1.5;
+  font-size: 25px;
+  text-align:center;
 }
 
-.column-right{
-  flex:1;
-  display:flex;
-  flex-direction:column;
-  background-color: #ededed;
-  text-align:left;
-  padding-left:20px;
+.homepage-content p{
+  line-height: 1.5;
+  font-size: 20px;
 }
 
-.column-right h2{
-  line-height: .1;
-  font-size:28px;
-}
-
-.column-right p{
-  line-height: 0.2;
-  font-size:17px;
+.homepage-content .schedule{
+  margin-top:20px;
+  margin-bottom:0px;
 }
 
 .four-grid-image{
   display:flex;
   flex-direction: row;
-  margin-top:100px;
+  margin-top:10px;
   margin-bottom:100px;
   overflow: hidden;
   margin-left: -185px;
@@ -271,6 +281,70 @@ main {
 
 .text-section ul{
   list-style:none;
+}
+
+.second-content{
+  display:flex;
+  background-color:#ffffff;
+  flex-direction: column;
+  margin-top:100px;
+  margin-bottom:100px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.second-content h2{
+  line-height: 1.5;
+  font-size: 30px;
+}
+
+.second-content p{
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+.two-column{
+  display:flex;
+  flex-direction: row;
+  margin-top:0px;
+  margin-bottom:0px;
+  margin-left: -135px;
+  margin-right:50px;
+  position: relative;
+  width: 90vw;
+  justify-content: center;
+}
+
+.two-column-image{
+  flex-direction: column;
+  flex:1;
+  text-align: center;
+  margin-top:0px;
+}
+
+.two-column-image img{
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+}
+
+.two-column-text{
+  flex-direction: column;
+  flex:1;
+  text-align: center;
+  justify-content: center;
+}
+
+.two-column-text h2{
+  padding-left:80px;
+  padding-right:80px;
+  padding-top:30px;
+}
+
+.two-column-text p{
+  padding-left:80px;
+  padding-right:80px;
+  text-align:left;
 }
 
 .accordion {
@@ -391,6 +465,12 @@ font-style: italic;
 
 .hidden {
   display: none !important;
+}
+
+.desktop-nav-links .current a{
+    text-decoration: underline;
+    color:red;
+    text-decoration-thickness: 0.1em;
 }
 
 @media (max-width: 850px) {
@@ -588,6 +668,11 @@ font-style: italic;
   .accordion-content {
     font-size:14px;
     text-align:left;
+  }
+
+  .two-column{
+    display:flex;
+    flex-direction: column;
   }
 
   footer {

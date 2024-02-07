@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+  <?php
+  $home_class = '';
+  $planningyourvisit_class = '';
+  $faqs_class = 'current';
+    ?>
 
 <head>
   <meta charset="UTF-8">
@@ -12,52 +17,8 @@
 </head>
 
 <body>
-  <header>
-    <div>
-      <nav id="widescreen">
-        <div class="headerlogo">
-          <a href="index.php" target="_blank" rel="noopener noreferrer" aria-label="navigate to home">
-            <img src="images/apple-harvest-logo.svg" alt="home">
-          </a>
-        </div>
-        <div>
-          <ul class="desktop-nav-links">
-            <li>
-                <a href="index.php" aria-label="navigate to home"><strong>Home</strong></a>
-            </li>
-            <li>
-                <a href="exploreapplefest.php" aria-label="navigate to exploring Apple Fest"><strong>Explore Apple Fest</strong></a>
-            </li>
-            <li>
-              <a href="FAQs.php"><strong>FAQs</strong></a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-</div>
-    <!-- Narrow Hamburger Menu -->
-    <div id="header">
-      <div class="centerlogo">
-        <a href="index.php" target="_blank" rel="noopener noreferrer" aria-label="navigate to home">
-          <img src="images/apple-harvest-logo.svg" alt="home">
-        </a>
-      </div>
-      <button id="menubutton" aria-label="open hamburger menu">≡</button>
-      </div>
-          <nav id="navmenu" class="accessible-hidden">
-          <ul>
-            <li>
-              <a href="index.php" aria-label="navigate to home"><strong>Home</strong></a>
-          </li>
-          <li>
-              <a href="exploreapplefest.php" aria-label="navigate to exploring Apple Fest"><strong>Explore Apple Fest</strong></a>
-          </li>
-          <li>
-            <a href="FAQs.php"><strong>FAQs</strong></a>
-          </li>
-          </ul>
-      </nav>
-</header>
+<?php include('includes/header.php'); ?>
+
 <main>
 <h2> Frequently Asked Questions</h2>
 <div class="accordion">
@@ -122,18 +83,7 @@
 </div>
 </main>
 
-<footer>
-  <h2>Contact Us</h2>
-  <h3></h3>
-    <p>
-    171 E. State St. PMB #136
-    Center Ithaca
-    Ithaca, NY 14850
-    </p>
-  <p><strong>Phone: </strong>(607) 277-8679</p>
-  <p><strong>Email:</strong> info@downtownithaca.com</p>
-  <cite class="footer"><a href="https://www.downtownithaca.com/contact-us/">Downtown Ithaca Contact Info</a></cite>
-</footer>
+<?php include('includes/footer.php'); ?>
 
 <script src="scripts/jquery-3.7.1.js"></script>
 <script src="scripts/hamburgermenu.js"></script>
