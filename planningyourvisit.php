@@ -94,10 +94,51 @@
                <!-- Source: Instructor provided content -->
       </div>
       </div>
-      <div class="second-content">
-            <p>
-              Join us on <strong>September 28-30th, 2023</strong> from <strong>10:00AM - 6:00PM</strong> at the Ithaca Commons to explore the <em>wonders and adventures</em>!</p>
-      </div>
+
+      <section class="form">
+      <h2>Event Update Subscription Form</h2>
+
+      <p class="morespace">Interested in attending <strong>Apple Fest</strong> and want to receive <strong>event updates</strong>? Sign up here!</p>
+
+      <form id="request-form" action= "confirmation.php" method="post" novalidate>
+        <div class="form-label">
+          <label for="request-email">Email:</label>
+          <input type="email" name="email" id="request-email" />
+        </div>
+
+        <p>Date:</p>
+        <div class="form-label">
+          <input type="radio" name="date1" id="request-date1" />
+          <label for="request-date1">9/28/23</label>
+        </div>
+        <div class="form-label">
+          <input type="radio" name="date2" id="request-date2" />
+          <label for="request-date2">9/29/23</label>
+        </div>
+        <div class="form-label">
+          <input type="radio" name="date3" id="request-date3" />
+          <label for="request-date3">9/30/23</label>
+        </div>
+
+        <p>Activities I'm Interested In:</p>
+        <div class="form-label">
+          <input type="checkbox" name="activities1" id="request-activity1" />
+          <label for="request-activity1">Food and Drinks</label>
+        </div>
+        <div class="form-label">
+          <input type="checkbox" name="activities2" id="request-activity2" />
+          <label for="request-activity2">Crafts</label>
+        </div>
+        <div class="form-label">
+          <input type="checkbox" name="activities3" id="request-activity3" />
+          <label for="request-activity3">Live Music & Entertainment</label>
+        </div>
+
+        <div class="align-right">
+          <input id="request-submit" type="submit" value="Sign Up for Event Updates" />
+        </div>
+      </form>
+    </section>
   </main>
 
   <?php include('includes/footer.php'); ?>

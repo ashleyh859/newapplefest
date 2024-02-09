@@ -303,6 +303,60 @@ main {
   font-size: 20px;
 }
 
+.form{
+  display:flex;
+  background-color:#ffffff;
+  flex-direction: column;
+  margin-top:100px;
+  margin-bottom:100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding:50px;
+  padding-top:25px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form h2{
+  line-height: 1.5;
+  font-size: 25px;
+  margin-bottom:5px;
+}
+
+.form p{
+  line-height: 1.5;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.form-label label {
+  font-size: 20px;
+  margin-top:-10px;
+}
+
+.form .morespace {
+  margin-bottom: 25px;
+}
+
+#request-submit {
+  margin-top:15px;
+  margin-bottom:-10px;
+  padding: 10px 20px;
+  background-color: #b91b1b;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+#request-submit:hover {
+  background-color: #ef5c5c;
+}
+
 .two-column{
   display:flex;
   flex-direction: row;
@@ -345,6 +399,15 @@ main {
   padding-left:80px;
   padding-right:80px;
   text-align:left;
+}
+
+.align-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.upwards {
+  margin-top: 10px;
 }
 
 .accordion {
