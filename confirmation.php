@@ -7,9 +7,7 @@
 
     $form_class_email = $_POST['email'];
 
-    $form_class_date1 = $_POST['date1'];
-    $form_class_date2 = $_POST['date2'];
-    $form_class_date3 = $_POST['date3'];
+    $form_class_date = $_POST['date'];
 
     $form_class_activites1 = $_POST['activities1'];
     $form_class_activites2 = $_POST['activities2'];
@@ -34,31 +32,25 @@
       <h2>Thank you for signing up!</h2>
 
       <p>Response Details</p>
-      <p>Email: <?php echo $form_class_email; ?></p>
+      <p>Email: <?php echo htmlspecialchars($form_class_email); ?></p>
 
         <p>You have been registered for the following dates:</p>
         <ul>
             <li>
-            9/28/23: <?php echo $form_class_date1; ?>
-            </li>
-            <li>
-            9/29/23: <?php echo $form_class_date2; ?>
-            </li>
-            <li>
-            9/30/23: <?php echo $form_class_date3; ?>
+              <?php echo htmlspecialchars($form_class_date); ?>
             </li>
         </ul>
 
         <p>You have been registered for the following activities:</p>
           <ul>
               <li>
-              Food and Drinks: <?php echo $form_class_activites1; ?>
+              Food and Drinks: <?php echo htmlspecialchars($form_class_activites1); ?>
               </li>
               <li>
-              Crafts: <?php echo $form_class_activites2; ?>
+              Crafts: <?php echo htmlspecialchars($form_class_activites2); ?>
               </li>
               <li>
-              Live Music & Entertainment: <?php echo $form_class_activites3; ?>
+              Live Music & Entertainment: <?php echo htmlspecialchars($form_class_activites3); ?>
               </li>
           </ul>
     </section>

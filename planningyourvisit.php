@@ -106,18 +106,23 @@
           <input type="email" name="email" id="request-email" />
         </div>
 
-        <p>Date:</p>
-        <div class="form-label">
-          <input type="radio" name="date1" id="request-date1" />
-          <label for="request-date1">9/28/23</label>
-        </div>
-        <div class="form-label">
-          <input type="radio" name="date2" id="request-date2" />
-          <label for="request-date2">9/29/23</label>
-        </div>
-        <div class="form-label">
-          <input type="radio" name="date3" id="request-date3" />
-          <label for="request-date3">9/30/23</label>
+        <div role="group" aria-labelledby="group_head">
+        <div id="group_head"><p>Date:</p></div>
+
+            <div class="label-input">
+              <input type="radio" id="request-date1" name="date" value="9/28/23" />
+              <label for="request-date1">9/28/23</label>
+            </div>
+
+            <div class="label-input">
+              <input type="radio" id="request-date2" name="date" value="9/29/23" />
+              <label for="request-date2">9/29/23</label>
+            </div>
+
+            <div class="label-input">
+              <input type="radio" id="request-date3" name="date" value="9/30/23" />
+              <label for="request-date3">9/30/23</label>
+            </div>
         </div>
 
         <p>Activities I'm Interested In:</p>
