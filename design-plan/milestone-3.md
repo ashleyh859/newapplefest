@@ -15,7 +15,7 @@ Place all design journey images inside the "design-plan" folder and then link th
 > Explain what you revised in response to the Milestone 2 feedback (1-3 sentences)
 > If you didn't make any revisions, explain why.
 
-I refined the form and confirmation design sketches again since I wanted to fix some design aspects.
+I refined the form and confirmation design sketches again since I wanted to fix some design aspects and use those iterations.
 
 
 ## Form Design and Planning
@@ -31,6 +31,7 @@ This form enables users to subscribe for event updates, ensuring they receive ti
 > Provide a brief explanation _underneath_ each sketch. (1 sentences for each sketch)
 
 This form includes a text field for email, radio buttons for the dates since there are only three dates, and checkboxes for the activities because I wanted to emphasize the convenience and user friendliness for Bella to fill out this form.
+
 >![Iteration Draft One](formdesignone.jpg)
 
 This form includes a text field for email, dropdown list for the dates since it could be too long and might be distracting for Bella, and checkboxes for the activities because I wanted Bella to fill this form out without any confusion to she and her group can get updates.
