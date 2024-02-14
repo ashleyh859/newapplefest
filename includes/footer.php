@@ -1,6 +1,5 @@
 <footer>
     <h2>Contact Us</h2>
-    <h3></h3>
       <p>
       171 E. State St. PMB #136
       Center Ithaca
