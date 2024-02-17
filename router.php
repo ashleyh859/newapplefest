@@ -75,7 +75,10 @@ function mime_type($filename)
 }
 
 const ROUTES = array(
-  '/' => 'pages/index.php'
+  '/'                                   => 'pages/index.php',
+  '/planning-your-visit'                => 'pages/planning-your-visit.php',
+  '/planning-your-visit/confirmation'   => 'pages/confirmation.php',
+  '/faqs'                               => 'pages/faqs.php',
 );
 
 // Grabs the URI and separates it from query string parameters
@@ -98,4 +101,5 @@ if ($php_file = match_routes($request_uri, ROUTES)) {
 } else {
   error_log("  404 Not Found: " . $request_uri);
   http_response_code(404);
+  require 'pages/not-found.php';
 }

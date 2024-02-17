@@ -10,10 +10,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>FAQs</title>
-  <link rel="icon" type="image/svg" href="/images/apple-harvest-logo.svg">
+  <link rel="icon" type="image/svg" href="/public/images/apple-harvest-logo.svg">
   <link rel="stylesheet"
   type="text/css"
-  href="styles/site.css" >
+  href="/public/styles/site.css" >
 </head>
 
 <body>
@@ -85,9 +85,9 @@
 
 <?php include('includes/footer.php'); ?>
 
-<script src="scripts/jquery-3.7.1.js"></script>
-<script src="scripts/hamburgermenu.js"></script>
-<script src="scripts/accordion.js"></script>
+<script src="/public/scripts/jquery-3.7.1.js"></script>
+<script src="/public/scripts/hamburgermenu.js"></script>
+<script src="/public/scripts/accordion.js"></script>
 </body>
 
 </html>

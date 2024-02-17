@@ -10,10 +10,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Explore Apple Fest</title>
-  <link rel="icon" type="image/svg" href="/images/apple-harvest-logo.svg">
+  <link rel="icon" type="image/svg" href="/public/images/apple-harvest-logo.svg">
   <link rel="stylesheet"
   type="text/css"
-  href="styles/site.css" >
+  href="/public/styles/site.css" >
 </head>
 
 <body>
@@ -21,7 +21,7 @@
     <main>
       <div class="fullscreen-image" >
         <picture>
-          <img id="originalA" src="images/people-eating-apples.jpg" alt="">
+          <img id="originalA" src="/public/images/people-eating-apples.jpg" alt="">
         </picture>
         <div class="overlay-text">
           <h2>Let's Explore and Plan Your Visit</h2>
@@ -41,7 +41,7 @@
     <div class="two-column">
       <div class="two-column-image">
         <picture>
-          <img src="images/cider-apples-stand.jpg" alt="">
+          <img src="/public/images/cider-apples-stand.jpg" alt="">
           <!-- Source: Instructor provided content -->
         </picture>
         </div>
@@ -72,7 +72,7 @@
       </div>
       <div class="two-column-image">
           <picture>
-            <img src="images/craft.jpg" alt="">
+            <img src="/public/images/craft.jpg" alt="">
           <!-- Source: Instructor provided content -->
           </picture>
         </div>
@@ -81,7 +81,7 @@
       <div class="two-column">
         <div class="two-column-image">
           <picture>
-          <img src="images/bandmusic.jpg" alt="">
+          <img src="/public/images/bandmusic.jpg" alt="">
           <!-- Source: Instructor provided content -->
           </picture>
         </div>
@@ -100,7 +100,7 @@
 
       <p class="morespace">Interested in attending <strong>Apple Fest</strong> and want to receive <strong>event updates</strong>? Sign up here!</p>
 
-      <form id="request-form" action= "confirmation.php" method="post" novalidate>
+      <form id="request-form" action= "/planning-your-visit/confirmation" method="post" novalidate>
         <div class="form-label">
           <label for="request-email">Email:</label>
           <input type="email" name="email" id="request-email" />
@@ -148,9 +148,9 @@
 
   <?php include('includes/footer.php'); ?>
 
-<script src="scripts/jquery-3.7.1.js"></script>
-<script src="scripts/hamburgermenu.js"></script>
-<script src="scripts/accordion.js"></script>
+<script src="/public/scripts/jquery-3.7.1.js"></script>
+<script src="/public/scripts/hamburgermenu.js"></script>
+<script src="/public/scripts/accordion.js"></script>
 </body>
 
 </html>

@@ -11,10 +11,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Home</title>
-  <link rel="icon" type="image/svg" href="/images/apple-harvest-logo.svg">
+  <link rel="icon" type="image/svg" href="/public/images/apple-harvest-logo.svg">
   <link rel="stylesheet"
   type="text/css"
-  href="styles/site.css" >
+  href="/public/styles/site.css" >
 </head>
 
 <body>
@@ -57,37 +57,37 @@
     <div class="four-grid-image">
       <div class="column">
         <picture>
-          <img src="images/apple-basket-many.jpg" alt="">
+          <img src="/public/images/apple-basket-many.jpg" alt="">
         </picture>
       </div>
       <div class="column">
         <picture>
-          <img src="images/sign-vendor.jpg" alt="">
+          <img src="/public/images/sign-vendor.jpg" alt="">
         </picture>
       </div>
       <div class="column">
         <picture>
-          <img src="images/vendor-stall.jpg" alt="">
+          <img src="/public/images/vendor-stall.jpg" alt="">
         </picture>
       </div>
       <div class="column">
         <picture>
-          <img src="images/cider-apples-stand.jpg" alt="">
+          <img src="/public/images/cider-apples-stand.jpg" alt="">
         </picture>
       </div>
     </div>
     <div>
       <figure class="map center">
-        <img id="originalE" class="map" src="images/apple-harvest-map.svg" alt="Map of Apple Fest activities">
+        <img id="originalE" class="map" src="/public/images/apple-harvest-map.svg" alt="Map of Apple Fest activities">
     </figure>
     </div>
 </main>
 
 <?php include('includes/footer.php'); ?>
 
-<script src="scripts/jquery-3.7.1.js"></script>
-<script src="scripts/hamburgermenu.js"></script>
-<script src="scripts/accordion.js"></script>
+<script src="/public/scripts/jquery-3.7.1.js"></script>
+<script src="/public/scripts/hamburgermenu.js"></script>
+<script src="/public/scripts/accordion.js"></script>
 </body>
 
 </html>

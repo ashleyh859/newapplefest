@@ -15,22 +15,23 @@ Place all design journey images inside the "design-plan" folder and then link th
 > Explain what you revised in response to the Milestone 3 feedback (1-3 sentences)
 > If you didn't make any revisions, explain why.
 
-TODO: milestone 3 feedback revisions
+I did not make any revisions because in response to the Milestone 3 feedback, I felt like my project adheres to all the requirements, where the submit button should be located all the way aligned to the bottom right.
 
 
 ## URL Design
 > Plan your HTTP routing.
 > List each route and the PHP file for each route.
 
-| Route       | PHP File                            |
-| ----------- | ----------------------------------- |
-| /           | pages/home.php (or pages/index.php) |
-| TODO: route | TODO: php file                      |
-| TODO: route | TODO: php file                      |
+| Route                                  | PHP File                            |
+| ---------------------------------------| ----------------------------------- |
+| /                                      | pages/index.php                     |
+| /planning-your-visit                   | pages/planningyourvisit.php         |
+| /planning-your-visit/confirmation      | pages/confirmation.php              |
+| /faqs                                  | pages/faqs                          |
 
 > Explain why these routes (URLs) are usable for your persona. (1 sentence)
 
-TODO: justification of routing design
+These routes are usable for Bella because they describe the page that Bella will be navigating too, like the homepage being / because this is the typical design for homepage, and since my form is located on planning-your-visit page, the confirmation page should also be directly related using another /.
 
 
 ## Missing Resource / Not Found Page
@@ -39,13 +40,16 @@ TODO: justification of routing design
 > Provide a brief explanation _underneath_ each sketch. (1 sentence)
 > **Refer to the persona by name.**
 
-TODO: sketches + explanation
+>![Iteration Draft One](notfounditerationone.jpg)
+This not found page includes the nav bar, 404 Page Not Found title, message explaining what the message mean, and the footer because I want Bella to still know that she is on the same webpage, and I want her to quickly understand and renavigate back to where she is looking for.
 
+>![Iteration Draft Two](notfounditerationtwo.jpg)
+This not found page includes the nav bar, 404 Page Not Found title, message explaining what the message mean, a return home button and the footer because I want Bella to still know that she is on the same webpage and be able to renavigate back to where she is looking for, and for her convenience, the return home button will help her immediately have an option to go back to familiar page without any frustrations.
 
 ## Self-Reflection
 > Take some time here to reflect on how much you've learned since you started this class. It's often easy to ignore our own progress. Take a moment and think about your accomplishments in this class. Hopefully you'll recognize that you've accomplished a lot and that you should be very proud of those accomplishments! (2-4 sentences)
 
-TODO: self-reflection
+From starting with the static Apple Fest website from last semester, it was enjoyable making design revisions and reflecting on the past design choices. Being able to add in server side rendered pages was so fun because adding in forms can help enhance the audience goals, specifically, my persona, Bella. Each step I took made me proud because I feel more confident in programming.
 
 
 ## Grading
@@ -53,13 +57,13 @@ TODO: self-reflection
 ### Grading: Mobile or Desktop
 > When we grade your final site, should we grade this with a narrow or wide screen?
 
-TODO: screen size
+Wide Screen
 
 
 ### Collaborators
 > List any persons you collaborated with on this project.
 
-TODO: list your collaborators
+N/A
 
 
 ### Reference Resources
