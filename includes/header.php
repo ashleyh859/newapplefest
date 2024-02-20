@@ -2,7 +2,7 @@
     <div>
       <nav id="widescreen">
         <div class="headerlogo">
-          <a href="index.php" target="_blank" rel="noopener noreferrer" aria-label="navigate to home">
+          <a href="/" target="_blank" rel="noopener noreferrer" aria-label="navigate to home">
             <img src="/public/images/apple-harvest-logo.svg" alt="home">
           </a>
         </div>

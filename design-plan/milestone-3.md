@@ -37,6 +37,8 @@ This form includes a text field for email, radio buttons for the dates since the
 This form includes a text field for email, dropdown list for the dates since it could be too long and might be distracting for Bella, and checkboxes for the activities because I wanted Bella to fill this form out without any confusion to she and her group can get updates.
 >![Iteration Draft Two](formdesigntwo.jpg)
 
+NEW CHANGES AFTER M3 FEEDBACK: I changed my text input field so that it was below the Email so that Bella and similar users can just follow their eyes downwards without jumping around, and this is basically the same design as Iteration One.
+>![Iteration Final Draft](formfinaldesign.jpg)
 
 ### Form Confirmation
 > Design your site's form confirmation page.
@@ -47,6 +49,7 @@ This confirmation page looks exactly like the form except that the empty text fi
 >![Iteration Draft One](confirmationdesignone.jpg)
 This confirmation page looks exactly like the form except for the email part, it will be a message where Apple Fest will be sending to their email, and this will help Bella see clearly that this is a confirmation page, while the important content like dates and activities remain the same as the original form.
 >![Iteration Draft Two](confirmationdesigntwo.jpg)
+
 
 
 ### Form Planning

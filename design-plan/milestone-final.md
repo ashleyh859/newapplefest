@@ -15,7 +15,7 @@ Place all design journey images inside the "design-plan" folder and then link th
 > Explain what you revised in response to the Milestone 3 feedback (1-3 sentences)
 > If you didn't make any revisions, explain why.
 
-I did not make any revisions because in response to the Milestone 3 feedback, I felt like my project adheres to all the requirements, where the submit button should be located all the way aligned to the bottom right.
+In response to the Milestone 3 feedback, I felt like my project adheres to all the requirements, where the submit button should be located all the way aligned to the bottom right. However, I realized that I decided to make the text input field below Email: because I wanted Bella and other users to follow a reading scanning pattern that where their eyes would follow downward because before, there was a little bounce in following the form. New design sketch can be found in Milestone 3 Design Journey. I also decided to change the confirmation design to Iteration Two that I already sketch out in Milestone 3 because of my new form design, and because I wanted Bella to quickly know that this is a confirmation message and having another email input bullet point seems unnecessary.
 
 
 ## URL Design
@@ -70,7 +70,7 @@ N/A
 > Please cite any external resources you referenced in the creation of your project.
 > (i.e. W3Schools, StackOverflow, Mozilla, etc.)
 
-TODO: list reference resources
+N/A
 
 
 [← Table of Contents](design-journey.md)

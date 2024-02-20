@@ -327,8 +327,20 @@ main {
   margin-top:-10px;
 }
 
+.form-label-email label {
+  display: block;
+  font-size: 20px;
+  margin-top:-10px;
+  margin-bottom:10px;
+}
+
+
 .form .morespace {
-  margin-bottom: 25px;
+  margin-bottom: 30px;
+}
+
+.form-font{
+  font-size: 20px;
 }
 
 #request-submit {

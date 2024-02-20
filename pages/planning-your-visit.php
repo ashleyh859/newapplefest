@@ -101,7 +101,7 @@
       <p class="morespace">Interested in attending <strong>Apple Fest</strong> and want to receive <strong>event updates</strong>? Sign up here!</p>
 
       <form id="request-form" action= "/planning-your-visit/confirmation" method="post" novalidate>
-        <div class="form-label">
+        <div class="form-label-email">
           <label for="request-email">Email:</label>
           <input type="email" name="email" id="request-email" />
         </div>

@@ -31,25 +31,24 @@
       <section class="form upwards">
       <h2>Thank you for signing up!</h2>
 
-      <p>Response Details</p>
-      <p>Email: <?php echo htmlspecialchars($form_class_email); ?></p>
+      <p>Your event subscription request has been successfully processed! We will send a confirmation email to <strong><?php echo htmlspecialchars($form_class_email); ?></strong> shortly.</p>
 
         <p>You have been registered for the following dates:</p>
         <ul>
-            <li>
+            <li class="form-font">
               <?php echo htmlspecialchars($form_class_date); ?>
             </li>
         </ul>
 
         <p>You have been registered for the following activities:</p>
           <ul>
-              <li>
+              <li class="form-font">
               Food and Drinks: <?php echo htmlspecialchars($form_class_activites1); ?>
               </li>
-              <li>
+              <li class="form-font">
               Crafts: <?php echo htmlspecialchars($form_class_activites2); ?>
               </li>
-              <li>
+              <li class="form-font">
               Live Music & Entertainment: <?php echo htmlspecialchars($form_class_activites3); ?>
               </li>
           </ul>
